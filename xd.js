@@ -1,6 +1,6 @@
 function bogoLeftPad (str, len, ch) {
     let i = 0;
-    char = "";
+    let char = "";
 
     while (i !== len) {
         i = Math.floor(Math.random() * 1000);
@@ -12,4 +12,3 @@ function bogoLeftPad (str, len, ch) {
     
     return char + str;
 }
-
